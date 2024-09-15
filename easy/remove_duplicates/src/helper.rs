@@ -5,7 +5,7 @@ impl Solution {
         if nums.is_empty() {
             return 0;
         }
-
+        
         let mut index = 0;
         for i in  1..nums.len() {
             if nums[i] != nums[index] {
